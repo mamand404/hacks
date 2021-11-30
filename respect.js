@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = ".";
+const prefix = "bayservar";
 client.on("message", message => {
   if (message.content === ".") {
     if (message.channel.guild) {
@@ -25,6 +25,6 @@ client.on("message", message => {
   }
 });
 
-client.login("")
+client.login("OTE1MTU2NDU3NDAwNDUxMDgz.YaXf3g.CK-yrRg_6md79yUdbCOLHwHJkiA")
 
 ////Respect Up////
